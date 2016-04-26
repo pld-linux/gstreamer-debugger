@@ -1,0 +1,11 @@
+--- gst-debugger-0.90.0/src/gst-debugger/controller/controller.cpp.orig	2015-10-07 10:40:06.000000000 +0200
++++ gst-debugger-0.90.0/src/gst-debugger/controller/controller.cpp	2016-04-26 17:37:32.997190386 +0200
+@@ -17,6 +17,8 @@
+ 
+ #include <gtkmm.h>
+ 
++#include <iostream>
++
+ Controller::Controller(IMainView *view)
+  : view(view)
+ {
